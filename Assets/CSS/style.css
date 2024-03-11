@@ -1,0 +1,45 @@
+p{
+    font-weight: bold;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+.menu-item {
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.order-form {
+    margin-top: 40px;
+}
+
+#cart {
+    margin-top: 40px;
+}
+
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+}
